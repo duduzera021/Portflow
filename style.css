@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: white;
+}
+nav{
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+
+}
+nav h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-evenly;
+
+}
+ul a{
+    color: grey;
+    text-decoration: none;
+    font-size: 21px;
+}
+ul a:hover{
+    color: black;
+    font-weight: 600;
+    font-size: 23px;
+}
+.MainFirstSection{
+    background-image: url(Imagens/laranja\ azul\ recorte.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+.Imagine-FaleConosco{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.Imagine-FaleConosco h1{
+    margin: 298px 0px 40px 0px;
+    font-size: 75px;
+    font-weight: 800;
+}
+.Imagine-FaleConosco h2{
+    font-weight: 200;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.MainSecondSection{
+    width: 100%;
+    
+}
+.MainSecondSection div{
+    width: 1600px;
+    margin: 50px auto;
+    
+    
+
+    
+}
+.MainSecondSection div img{
+    width: 386px;
+    padding: 10px;
+    a: :hover
+}
+footer{
+    background-color: #E9EDF2;
+    width: 100%;
+    
+}
+.FooterClass{
+    margin: 0 auto;
+    width: 1600px;
+    Display: flex;
+    height: 125px;    
+    align-items: center;
+}
+.FooterClass div{
+    width: 500px;
+}
+.FooterClass div img{
+    width: 350px;
+}
+.FooterClass h3{
+    margin: 0px 30px 0px 0px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    nav{
+        width: 300px;
+        height: 120px;
+    
+    }
+    nav h2{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    ul{
+        display: none;
+        
+    
+    }
+    .MainFirstSection{
+        height: 150px;
+        width: 300px;
+    }
+    .Imagine-FaleConosco{
+        width: 300px;
+    }
+    .Imagine-FaleConosco h1{
+        margin: 50px 0px 40px 0px;
+        font-size: 5px;
+        font-weight: 800;
+    }
+    .Imagine-FaleConosco h2{
+        font-weight: 200;
+        font-size: 6px;
+        text-transform: uppercase;
+    }
+    .MainSecondSection{
+        width: 100%;
+        
+    }
+    .MainSecondSection div{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+        
+    }
+    .MainSecondSection div img{
+        width: 150px;
+        padding: 10px;
+    }
+    footer{
+
+        display: none;
+    }
+}
